@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import HomePage from "./components/HomePage";
@@ -13,7 +12,6 @@ root.render(
     <Routes>
       <Route path="/" element={<HomePage />}></Route>
       <Route path="/booking" element={<BookingPage />}></Route>
-      {/* <App /> */}
     </Routes>
   </Router>
 );
