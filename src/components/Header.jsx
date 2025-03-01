@@ -5,12 +5,24 @@ const Header = () => {
       <img src={logo} alt="logo" className="bg-black" />
       <nav>
         <ul className="flex gap-4">
-          <li className="font-semibold">Home</li>
-          <li className="font-semibold">About</li>
-          <li className="font-semibold">Menu</li>
-          <li className="font-semibold">Reservetions</li>
-          <li className="font-semibold">Order Online</li>
-          <li className="font-semibold">Login</li>
+          <li className="font-semibold">
+            <a href="#hero">Home</a>
+          </li>
+          <li className="font-semibold">
+            <a href="#testimonials">About</a>
+          </li>
+          <li className="font-semibold">
+            <a href="#menu">Menu</a>
+          </li>
+          <li className="font-semibold">
+            <a href="#reservation">Reservations</a>
+          </li>
+          <li className="font-semibold">
+            <a href="#reservation">Order Online</a>
+          </li>
+          <li className="font-semibold">
+            <a href="#reservation">Login</a>
+          </li>
         </ul>
       </nav>
     </header>
